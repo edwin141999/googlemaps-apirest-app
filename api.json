@@ -1,0 +1,11 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "longitud": 15.5,
+            "latitud": 15.6,
+            "nombre": "tuxtla",
+            "descripcion": "tuxtla es bonito"
+        }
+    ]
+}
