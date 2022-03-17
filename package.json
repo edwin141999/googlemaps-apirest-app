@@ -10,7 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "express": "^4.17.3",
     "json-server": "^0.17.0"
-  }
+  },
+  "type": "module"
 }
