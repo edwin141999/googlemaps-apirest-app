@@ -14,6 +14,7 @@ setTimeout(() => {
         })
 }, 200);
 
+// window.initMap = function (latitud, longitud, name, description) {
 function initMap(latitud, longitud, name, description) {
     console.log('coordenada:', latitud, longitud);
     const btnBack = document.getElementById('btnBack')
@@ -32,7 +33,7 @@ function initMap(latitud, longitud, name, description) {
         zoom: 10, center: { lat: latitud, lng: longitud }
     }
     let map = new google.maps.Map(document.getElementById("map"), mapOptions)
-    document.getElementById('lugar').innerHTML = name+' ('+latitud+', '+longitud+')'
+    document.getElementById('lugar').innerHTML = name + ' (' + latitud + ', ' + longitud + ')'
     document.getElementById('description').innerHTML = description
     marker = new google.maps.Marker({
         position: { lat: latitud, lng: longitud }, map: map
