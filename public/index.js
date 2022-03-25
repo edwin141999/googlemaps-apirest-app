@@ -3,7 +3,7 @@ const LUGARES = []
 let count = 0
 
 setTimeout(() => {
-    fetch('http://localhost:3000/posts')
+    fetch('https://places-api-json.herokuapp.com/posts')
         .then(res => res.json())
         .then(response => {
             response.forEach(element => {
